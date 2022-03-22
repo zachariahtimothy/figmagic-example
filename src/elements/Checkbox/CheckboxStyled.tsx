@@ -4,7 +4,7 @@ import CheckboxCss from './CheckboxCss';
 
 interface CheckboxProps {
   children: any;
-  [propName: string]: any;
+  [propName: string]: {};
 }
 
 // Extend the below as needed

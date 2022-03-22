@@ -7,14 +7,14 @@ import fontWeights from '../../../tokens/fontWeights';
 import lineHeights from '../../../tokens/lineHeights';
 
 const MicrocopyCss = `
-color: ${colors.black};
-font-size: ${fontSizes.sub};
-font-family: ${fontFamilies.bold};
-font-family: ${fontFamilies.medium};
-font-family: ${fontFamilies.regular};
-font-family: ${fontFamilies.light};
-font-weight: ${fontWeights.regular};
-line-height: ${lineHeights.xs};
+color: ${colors['black']};
+font-size: ${fontSizes['sub']};
+font-family: ${fontFamilies['light']};
+font-family: ${fontFamilies['regular']};
+font-family: ${fontFamilies['medium']};
+font-family: ${fontFamilies['bold']};
+font-weight: ${fontWeights['regular']};
+line-height: ${lineHeights['xs']};
 text-align: left;
 `;
 

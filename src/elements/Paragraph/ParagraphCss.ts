@@ -7,14 +7,14 @@ import fontWeights from '../../../tokens/fontWeights';
 import lineHeights from '../../../tokens/lineHeights';
 
 const ParagraphCss = `
-color: ${colors.black};
-font-size: ${fontSizes.paragraph};
-font-family: ${fontFamilies.bold};
-font-family: ${fontFamilies.medium};
-font-family: ${fontFamilies.regular};
-font-family: ${fontFamilies.light};
-font-weight: ${fontWeights.regular};
-line-height: ${lineHeights.s};
+color: ${colors['black']};
+font-size: ${fontSizes['paragraph']};
+font-family: ${fontFamilies['light']};
+font-family: ${fontFamilies['regular']};
+font-family: ${fontFamilies['medium']};
+font-family: ${fontFamilies['bold']};
+font-weight: ${fontWeights['regular']};
+line-height: ${lineHeights['s']};
 text-align: left;
 `;
 

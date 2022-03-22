@@ -15,22 +15,22 @@ const SelectCss = `
   box-sizing: border-box;
   border: 0;
   border-style: solid;
-  padding-left: ${spacing.small};
-  padding-right: ${spacing.small};
-  height: ${spacing.medium};
-  background-color: ${colors.white};
-  border-width: ${borderWidths.regular};
-  border-color: rgba(45; 156; 219; 1);
-  border-radius: ${radii.soft};
-  box-shadow: ${shadows.soft};
-  color: ${colors.gray1};
-  font-size: ${fontSizes.sub};
-  font-family: ${fontFamilies.bold};
-  font-family: ${fontFamilies.medium};
-  font-family: ${fontFamilies.regular};
-  font-family: ${fontFamilies.light};
-  font-weight: ${fontWeights.regular};
-  line-height: ${lineHeights.xs};
+  padding-left: ${spacing['small']};
+  padding-right: ${spacing['small']};
+  height: ${spacing['medium']};
+  background-color: ${colors['white']};
+  border-width: ${borderWidths['regular']};
+  border-color: rgba(45, 156, 219, 1);
+  border-radius: ${radii['soft']};
+  box-shadow: ${shadows['soft']};
+  color: ${colors['gray1']};
+  font-size: ${fontSizes['sub']};
+  font-family: ${fontFamilies['light']};
+  font-family: ${fontFamilies['regular']};
+  font-family: ${fontFamilies['medium']};
+  font-family: ${fontFamilies['bold']};
+  font-weight: ${fontWeights['regular']};
+  line-height: ${lineHeights['xs']};
   text-align: left;
 
   &.Normal {

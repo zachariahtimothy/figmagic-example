@@ -8,10 +8,10 @@ const SliderCss = `
   box-sizing: border-box;
   border: 0;
   border-style: solid;
-  height: 4;
-  background-color: ${colors.gray3};
-  border-width: ${borderWidths.fat};
-  border-color: ${colors.gray3};
+  height: 4px;
+  background-color: ${colors['gray3']};
+  border-width: ${borderWidths['fat']};
+  border-color: ${colors['gray3']};
 `;
 
 export default SliderCss;

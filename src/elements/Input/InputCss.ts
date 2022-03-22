@@ -15,30 +15,30 @@ const InputCss = `
   box-sizing: border-box;
   border: 0;
   border-style: solid;
-  padding-left: ${spacing.small};
-  padding-right: ${spacing.small};
-  height: ${spacing.big};
-  border-width: ${borderWidths.regular};
-  border-color: ${colors.black};
-  border-radius: ${radii.rounded};
-  box-shadow: ${shadows.soft};
-  font-size: ${fontSizes.paragraph};
-  font-family: ${fontFamilies.bold};
-  font-family: ${fontFamilies.medium};
-  font-family: ${fontFamilies.regular};
-  font-family: ${fontFamilies.light};
-  font-weight: ${fontWeights.regular};
-  line-height: ${lineHeights.xs};
+  padding-left: ${spacing['small']};
+  padding-right: ${spacing['small']};
+  height: ${spacing['big']};
+  border-width: ${borderWidths['regular']};
+  border-color: ${colors['black']};
+  border-radius: ${radii['rounded']};
+  box-shadow: ${shadows['soft']};
+  font-size: ${fontSizes['paragraph']};
+  font-family: ${fontFamilies['light']};
+  font-family: ${fontFamilies['regular']};
+  font-family: ${fontFamilies['medium']};
+  font-family: ${fontFamilies['bold']};
+  font-weight: ${fontWeights['regular']};
+  line-height: ${lineHeights['xs']};
   text-align: left;
 
   &.Normal {
-    background-color: ${colors.white};
-    color: ${colors.black};
+    background-color: ${colors['white']};
+    color: ${colors['black']};
   }
 
   &:invalid {
-    background-color: ${colors.black};
-    color: ${colors.red};
+    background-color: ${colors['black']};
+    color: ${colors['red']};
   }
 
 `;

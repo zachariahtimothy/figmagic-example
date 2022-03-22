@@ -7,14 +7,14 @@ import fontWeights from '../../../tokens/fontWeights';
 import lineHeights from '../../../tokens/lineHeights';
 
 const H6Css = `
-color: ${colors.black};
-font-size: ${fontSizes.h6};
-font-family: ${fontFamilies.bold};
-font-family: ${fontFamilies.medium};
-font-family: ${fontFamilies.regular};
-font-family: ${fontFamilies.light};
-font-weight: ${fontWeights.bold};
-line-height: ${lineHeights.xs};
+color: ${colors['black']};
+font-size: ${fontSizes['h6']};
+font-family: ${fontFamilies['light']};
+font-family: ${fontFamilies['regular']};
+font-family: ${fontFamilies['medium']};
+font-family: ${fontFamilies['bold']};
+font-weight: ${fontWeights['bold']};
+line-height: ${lineHeights['xs']};
 text-align: left;
 text-transform: uppercase;
 `;
