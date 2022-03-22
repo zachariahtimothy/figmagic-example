@@ -10,12 +10,12 @@ const CheckboxCss = `
   box-sizing: border-box;
   border: 0;
   border-style: solid;
-  height: ${spacing.medium};
-  background-color: ${colors.white};
-  border-width: ${borderWidths.hairline};
-  border-color: ${colors.black};
-  border-radius: ${radii.circle};
-  background-color: ${colors.green2};
+  height: ${spacing['medium']};
+  background-color: ${colors['white']};
+  border-width: ${borderWidths['hairline']};
+  border-color: ${colors['black']};
+  border-radius: ${radii['circle']};
+  background-color: ${colors['green2']};
 
   &.Normal {
   }

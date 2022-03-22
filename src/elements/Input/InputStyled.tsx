@@ -4,7 +4,7 @@ import InputCss from './InputCss';
 
 interface InputProps {
   children: any;
-  [propName: string]: any;
+  [propName: string]: {};
 }
 
 // Extend the below as needed

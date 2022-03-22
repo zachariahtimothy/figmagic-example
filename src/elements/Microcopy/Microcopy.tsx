@@ -3,12 +3,12 @@ import * as React from 'react';
 import MicrocopyStyled from './MicrocopyStyled';
 
 interface MicrocopyProps {
-  children: any;
-  [propName: string]: {};
+	children?: any;
+	[propName: string]: {};
 }
 
-const Microcopy: React.FC<MicrocopyProps> = ({ children }) => (
-  <MicrocopyStyled>{children ? children : "Microcopy"}</MicrocopyStyled>
+const Microcopy: React.FC<MicrocopyProps> = ({ children, ...props }) => (
+	<MicrocopyStyled {...props}>{children ? children : "Microcopy"}</MicrocopyStyled>
 );
 
 export default Microcopy;

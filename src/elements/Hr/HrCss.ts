@@ -8,8 +8,8 @@ const HrCss = `
   box-sizing: border-box;
   border: 0;
   border-style: solid;
-  border-width: ${borderWidths.regular};
-  border-color: ${colors.gray3};
+  border-width: ${borderWidths['regular']};
+  border-color: ${colors['gray3']};
 `;
 
 export default HrCss;
